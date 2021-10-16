@@ -1,14 +1,14 @@
 import CartContext from "./cart-context";
 
 const CartProvider = (props) => {
-  const addItenToCartHandler = (item) => {};
+  const addItemToCartHandler = (item) => {};
 
   const removeItemFromCartHandler = (id) => {};
 
   const cartContext = {
     item: [],
     totalAmount: 0,
-    addItem: addItenToCartHandler,
+    addItem: addItemToCartHandler,
     removeItem: removeItemFromCartHandler,
   };
   return (
